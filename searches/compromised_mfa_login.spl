@@ -1,0 +1,1 @@
+index="hospital_iam" status="success" mfa_status="BYPASSED" | table _time, user_id, user_role, src_ip, geo_location

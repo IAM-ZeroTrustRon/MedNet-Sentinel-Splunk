@@ -1,0 +1,1 @@
+index="hospital_net" action="ALERT_EXTERNAL_BEACON" | table _time, src_ip, mac_address, dest_ip, bytes_transferred

@@ -1,0 +1,1 @@
+index="hospital_ehr" action="BULK_EXPORT" | stats sum(records_viewed_count) as total_records_stolen by user_id
