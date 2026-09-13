@@ -71,7 +71,7 @@ index="hospital_iam" status="success" mfa_status="BYPASSED" | table _time, user_
 ```spl
 index="hospital_ehr" action="BULK_EXPORT" | stats sum(records_viewed_count) as total_records_stolen by user_id
 ```
-📌 **What it detects:** The same compromised account `nurse_jdoe_2` rapidly viewing a massive number of patient records. The summed output shows **101,475 records stolen** — a critical data breach magnitude.
+📌 **What it detects:** The same compromised account `nurse_jdoe_2` rapidly viewing a massive number of patient records. The summed output shows **450 records stolen** — a critical data breach magnitude.
 
 ## Lab / Simulated Environment
 
